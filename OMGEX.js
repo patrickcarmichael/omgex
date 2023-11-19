@@ -75,11 +75,4 @@ window.OMGEX = function (options) {
           field.text
         }</div>`;
     });
-  }
-  if (options.promoteOMGEX != false) {
-    let footer = document.querySelector("#footer");
-    footer.innerHTML =
-      footer.innerHTML +
-      `<br><a href="https://github.com/LITdevs/OMGEX#readme"><i class="omg-icon omg-vukky" style="color: #00a8f3"></i> Extended by OMGEX ${version}</a>`;
-  }
 };
